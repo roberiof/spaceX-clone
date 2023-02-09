@@ -1,0 +1,354 @@
+* {
+  color: white;
+}
+
+.container00 {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+nav .logo {
+  width: 12rem;
+  margin-right: 1.5rem;
+}
+
+li a, footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+li a:hover, footer a:hover {
+  color: #b9b9b9;
+}
+
+.arrow-div {
+  text-align: center;
+}
+.arrow-div .arrow {
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: 10%;
+  width: 10%;
+}
+
+.more-information {
+  text-align: center;
+  padding-top: 40%;
+}
+.more-information .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.more-information .buttons button {
+  width: 180px;
+}
+
+#copyOBC {
+  color: #555252;
+  font-size: small;
+}
+
+footer {
+  background-color: black;
+}
+footer .footer-div {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 550px) {
+  .more-information {
+    padding-top: 65%;
+  }
+}
+.container00 .text {
+  position: absolute;
+  top: 35%;
+}
+
+.container01-home {
+  background-image: url("../../assets/home/rocket-station.jpg");
+}
+
+.container02-home {
+  background-image: url("../../assets/home/rocket.jpg");
+}
+
+.container03-home {
+  background-image: url("../../assets/home/astronauts.gif");
+}
+
+.container04-home {
+  background-image: url("../../assets/home/startship.jpg");
+}
+
+.container01-fa {
+  background-image: url("../../assets/falcon9/night-rocket-launching.jpg");
+}
+.container01-fa .center-text {
+  margin: 30% auto;
+  text-align: center;
+}
+.container01-fa .center-text h1 {
+  margin: auto;
+  width: fit-content;
+  font-size: 75px;
+}
+.container01-fa .center-text p {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.total-data-div {
+  width: 100%;
+  background-color: black;
+  padding-block: 30px;
+  margin: 0;
+}
+.total-data-div h1 {
+  margin: auto;
+  width: fit-content;
+  font-size: 80px;
+}
+.total-data-div p {
+  font-size: 20px;
+  font-weight: 100;
+}
+.total-data-div div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.total-data-div div div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.container02-fa {
+  background-image: url("../../assets/falcon9/02.jpg");
+}
+.container02-fa .falcon-info {
+  padding-top: 15%;
+  width: 50%;
+  font-size: 25px;
+  line-height: 1.8em;
+  font-weight: 400;
+}
+
+.carousel01-ov {
+  background-image: url("../../assets/falcon9/03.jpg");
+}
+
+.carousel02-ov {
+  background-image: url("../../assets/falcon9/04.jpg");
+}
+
+.carousel03-ov {
+  background-image: url("../../assets/falcon9/05.jpg");
+}
+
+.carousel04-ov {
+  background-image: url("../../assets/falcon9/06.jpg");
+}
+
+.carousel05-ov {
+  background-image: url("../../assets/falcon9/07.jpg");
+}
+
+.carousel-text {
+  width: 35%;
+  position: absolute;
+  top: 35%;
+  right: 51%;
+}
+.carousel-text p, .carousel-text td, .carousel-text th {
+  font-size: 16px;
+  font-weight: 100;
+}
+.carousel-text table td {
+  text-align: right;
+}
+
+.container03-fa {
+  background-image: url("../../assets/falcon9/08.jpg");
+}
+
+.carousel01-sb {
+  background-image: url("../../assets/falcon9/sm2-day-rocket-launching.jpg");
+}
+
+.carousel02-sb {
+  background-image: url("../../assets/falcon9/rockets.jpg");
+}
+
+.carousel03-sb {
+  background-image: url("../../assets/falcon9/lg-day-rocket-launching.jpg");
+}
+
+.carousel04-sb {
+  background-image: url("../../assets/falcon9/sm1-day-rocket-launching.jpg");
+}
+
+.carousel05-sb {
+  background-image: url("../../assets/falcon9/yellow-rocket.jpg");
+}
+
+.carousel06-sb {
+  background-image: url("../../assets/falcon9/rocket-arch.jpg");
+}
+
+.carousel-subtitle {
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  background-color: black;
+}
+
+@media (max-width: 415px) {
+  .total-data-div div {
+    flex-direction: column;
+  }
+  .container02-fa .falcon-info {
+    font-size: 23px;
+  }
+}
+@media (max-width: 768px) {
+  .container01-fa .center-text {
+    margin: 35% auto;
+  }
+  .total-data-div h1 {
+    font-size: 50px;
+  }
+  .total-data-div p {
+    font-size: 13px;
+    font-weight: 10;
+  }
+  .container02-fa .falcon-info {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  .carousel-text {
+    width: 75%;
+    top: 25%;
+    right: 12%;
+  }
+}
+.container01-hf {
+  background-image: url("../../assets/humanFlight/astronaut.jpg");
+}
+.container01-hf .center-text {
+  margin: 10% auto;
+  text-align: center;
+}
+.container01-hf .center-text h1 {
+  margin: auto;
+  width: fit-content;
+  font-size: 80px;
+}
+.container01-hf .center-text p {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.opacity {
+  position: absolute;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+
+.contact-us-div {
+  background-color: #000000;
+}
+.contact-us-div p {
+  color: #d8d8d8;
+  margin: auto;
+  width: 60%;
+  font-size: 18px;
+  text-align: center;
+}
+.contact-us-div a {
+  font-size: 18px;
+  color: white;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.txt {
+  width: 30%;
+  position: absolute;
+  top: 25%;
+}
+.txt h1 {
+  font-size: 60px;
+}
+
+.right {
+  left: 60%;
+}
+
+.left {
+  right: 60%;
+}
+
+.container02-hf {
+  background-image: url("../../assets/humanFlight/earth.jpg");
+}
+
+.container03-hf {
+  background-image: url("../../assets/humanFlight/satellite.jpg");
+}
+
+.container04-hf {
+  background-image: url("../../assets/humanFlight/moon.jpg");
+}
+
+.container05-hf {
+  background-image: url("../../assets/humanFlight/mars.jpg");
+}
+
+@media (max-width: 510px) {
+  .container01-hf .center-text {
+    margin: 35% auto;
+  }
+  .container01-hf .center-text h1 {
+    font-size: 56px;
+  }
+  .container01-hf .center-text p {
+    font-size: 18px;
+  }
+  .right {
+    left: 46%;
+  }
+}
+@media (max-width: 380px) {
+  .container01-hf .center-text h1 {
+    font-size: 44px;
+  }
+  .right {
+    left: 35%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

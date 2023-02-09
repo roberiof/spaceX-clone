@@ -1,0 +1,80 @@
+$link-hover: #b9b9b9;
+$link-copyOBC: #555252;
+
+*{
+  color: white;
+}
+
+// REPEATING SETTINGS 
+.container00{
+  background-color: black ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+nav{ 
+  .logo{
+    width: 12rem;
+    margin-right: 1.5rem;
+  }
+}
+
+li a , footer a{
+  text-decoration: none;
+  color: white;
+  font-size: .75rem;
+  font-weight: bold;
+  &:hover{
+    color: $link-hover;
+  }
+}
+
+.arrow-div{
+  text-align: center;
+  .arrow{
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 10%;
+    width: 10%;
+  }
+}
+
+.more-information{
+  text-align: center;
+  padding-top: 40%;
+  .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    button{
+      width: 180px;
+    }
+  }
+}
+
+#copyOBC{
+  color: $link-copyOBC;
+  font-size: small;
+}
+
+footer{
+  background-color: black;
+  .footer-div{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 550px){
+  .more-information{
+    padding-top: 65%;
+  }
+}

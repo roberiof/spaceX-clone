@@ -1,0 +1,169 @@
+.container01-fa{
+  background-image: url('../../assets/falcon9/night-rocket-launching.jpg');
+  .center-text{
+    margin: 30% auto;
+    text-align: center;
+    h1{
+      margin: auto;
+      width: fit-content;
+      font-size: 75px;
+    }
+    p{
+      font-size: 25px;
+      font-weight: 100;
+    }
+  }
+}
+
+
+.total-data-div{
+  width: 100%;
+  background-color: black;
+  padding-block: 30px;
+  margin: 0;
+  h1{
+    margin: auto;
+    width: fit-content;
+    font-size: 80px;
+  }
+  p{
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    // background-color: beige;
+  }
+}
+
+.container02-fa{
+  background-image: url('../../assets/falcon9/02.jpg');
+  .falcon-info{
+    padding-top: 15%;
+    width: 50%;
+    font-size: 25px;
+    line-height: 1.8em;
+    font-weight: 400;
+  }
+}
+
+.carousel01-ov{
+  background-image: url('../../assets/falcon9/03.jpg');
+}
+.carousel02-ov{
+  background-image: url('../../assets/falcon9/04.jpg');
+}
+.carousel03-ov{
+  background-image: url('../../assets/falcon9/05.jpg');
+}
+.carousel04-ov{
+  background-image: url('../../assets/falcon9/06.jpg');
+}
+.carousel05-ov{
+  background-image: url('../../assets/falcon9/07.jpg');
+}
+
+.carousel-text{
+  width: 35%;
+  position: absolute;
+  top: 35%;
+  right: 51%;
+  p, td, th{
+    font-size: 16px;
+    font-weight: 100;
+  }
+  table td{
+      text-align: right;
+    }
+  }
+
+.container03-fa{
+  background-image: url('../../assets/falcon9/08.jpg');
+}
+
+.carousel01-sb{
+  background-image: url('../../assets/falcon9/sm2-day-rocket-launching.jpg');
+}
+.carousel02-sb{
+  background-image: url('../../assets/falcon9/rockets.jpg');
+}
+.carousel03-sb{
+  background-image: url('../../assets/falcon9/lg-day-rocket-launching.jpg');
+}
+.carousel04-sb{
+  background-image: url('../../assets/falcon9/sm1-day-rocket-launching.jpg');
+}
+.carousel05-sb{
+  background-image: url('../../assets/falcon9/yellow-rocket.jpg');
+}
+.carousel06-sb{
+  background-image: url('../../assets/falcon9/rocket-arch.jpg');
+}
+
+.carousel-subtitle{
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  background-color: black;
+}
+
+
+@media (max-width: 415px){
+  .total-data-div{
+    div{
+      flex-direction: column;
+    }
+  }
+  .container02-fa{
+    .falcon-info{
+      font-size: 23px;
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .container01-fa{
+    .center-text{
+      margin: 35% auto ;
+    }
+  }
+  .total-data-div{
+    h1{
+      font-size: 50px;
+    }
+    p{
+      font-size: 13px;
+      font-weight: 10
+    }
+  }
+  .container02-fa{
+    .falcon-info{
+      width: 90%;
+      margin: auto;
+      text-align: center;
+    }
+  }
+
+  .carousel-text{
+    width: 75%;
+    top: 25%;
+    right: 12%;
+  }
+
+}
+

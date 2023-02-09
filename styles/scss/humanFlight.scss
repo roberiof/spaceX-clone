@@ -1,0 +1,105 @@
+.container01-hf{
+  background-image: url('../../assets/humanFlight/astronaut.jpg') ;
+  .center-text{
+    margin: 10% auto;
+    text-align: center;
+    h1{
+      margin: auto;
+      width: fit-content;
+      font-size: 80px;
+    }
+    p{
+      font-size: 25px;
+      font-weight: 100;
+    }
+  }
+}
+
+.opacity{
+  position: absolute;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+
+.contact-us-div{
+  background-color: #000000;
+  p{
+    color: #d8d8d8;
+    margin: auto;
+    width: 60%;
+    font-size: 18px;
+    text-align: center;
+  }
+  a{
+    font-size: 18px;
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.txt{
+  width: 30%;
+  position: absolute;
+  top: 25%;
+  h1{
+    font-size: 60px;
+  }
+}
+
+.right{
+  left: 60%;
+}
+
+.left{
+  right: 60%;
+}
+
+.container02-hf{
+  background-image: url('../../assets/humanFlight/earth.jpg') ;
+}
+
+.container03-hf{
+  background-image: url('../../assets/humanFlight/satellite.jpg') ;
+}
+.container04-hf{
+  background-image: url('../../assets/humanFlight/moon.jpg') ;
+}
+.container05-hf{
+  background-image: url('../../assets/humanFlight/mars.jpg') ;
+}
+
+@media (max-width: 510px) {
+  .container01-hf{
+    .center-text{
+      margin: 35% auto;
+      h1{
+        font-size: 56px;
+      }
+      p{
+        font-size: 18px;
+      }
+    }
+  }
+  
+  .right{
+    left: 46%
+  }
+}
+
+@media (max-width: 380px){
+  .container01-hf{
+    .center-text{
+      h1{
+        font-size: 44px;
+      }
+    }
+  }
+
+  .right{
+    left: 35%;
+  }
+}
